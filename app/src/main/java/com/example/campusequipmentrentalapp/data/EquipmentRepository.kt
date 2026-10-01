@@ -86,6 +86,36 @@ object EquipmentRepository {
             maxRentalDays = 2,
             location = "학과 사무실",
             description = "소규모 행사와 프로젝트 시연에 사용할 수 있는 Bluetooth 스피커입니다."
+        ),
+        Equipment(
+            id = 7,
+            name = "무선 마우스",
+            category = "컴퓨터",
+            icon = "💻",
+            status = RentalStatus.RENTED,
+            maxRentalDays = 3,
+            location = "학과 사무실",
+            description = "소규모 행사와 프로젝트 시연에 사용할 수 있는 무선 마우스입니다."
+        ),
+        Equipment(
+            id = 8,
+            name = "무선 헤드셋",
+            category = "음향",
+            icon = "🔊",
+            status = RentalStatus.RENTED,
+            maxRentalDays = 3,
+            location = "학과 사무실",
+            description = "소규모 행사와 프로젝트 시연에 사용할 수 있는 무선 헤드셋입니다."
+        ),
+        Equipment(
+            id = 9,
+            name = "에어팟",
+            category = "음향",
+            icon = "🔊",
+            status = RentalStatus.RENTED,
+            maxRentalDays = 1,
+            location = "학과 사무실",
+            description = "소규모 행사와 프로젝트 시연에 사용할 수 있는 에어팟입니다."
         )
 
 
